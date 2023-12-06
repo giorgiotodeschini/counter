@@ -21,5 +21,4 @@ int main()
     std::cout << "We set the value to 10\n";
     counter.SetValue(10);
     std::cout << "Now the value is " << counter.GetValue() << "\n";
-
 }

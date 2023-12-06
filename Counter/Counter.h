@@ -3,7 +3,7 @@
 #ifdef COUNTER_EXPORTS
 #define DLLIMPEXP __declspec(dllexport)
 #else
-#define DLLIMPEXP
+#define DLLIMPEXP __declspec(dllimport)
 #endif
 
 class DLLIMPEXP Counter
