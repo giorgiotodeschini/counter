@@ -17,6 +17,7 @@ public:
 	double Add(double value);
 	double Sub(double value);
 
-	double Value();
+	double GetValue();
+	void SetValue(double value);
 };
 

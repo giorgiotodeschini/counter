@@ -18,7 +18,12 @@ double Counter::Sub(double value = 1.0)
 	return m_value;
 }
 
-double Counter::Value()
+double Counter::GetValue()
 {
 	return m_value;
+}
+
+void Counter::SetValue(double value)
+{
+	m_value = value;
 }
